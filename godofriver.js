@@ -2,7 +2,7 @@
 var lucky = window.prompt('Achelous: Hey young man! I heard your girlfriend just missing in the river. I am the god of this river. I heard your pray and here to help. Were you lost a sliver grilfriend or a gold one?') || ''
 lucky = lucky.toLowerCase().trim()
 // If the user clicks"Cancel" in the prompt
-if (lucky === null) {
+if (lucky === '') {
   var randomNumber = Math.random()
   if (randomNumber > 0.4) {
     window.alert('Achelous: You are a really honest person! As a reward, you will have your girlfriend, silver girlfriend and gold girlfriend !')
